@@ -29,10 +29,10 @@ public class KhanCalculatorTip {
         double totalPerPerson= totalBillAmountWithTip/amountPeople;
         //calculations for total bill per person
 
-        System.out.println("Total tip amount: " + totalTipAmount);
-        System.out.println("Total bill amount with tip: " + totalBillAmountWithTip);
-        System.out.println("Tip per person: " + tipPerPerson);
-        System.out.println("Total bill per person: " + totalPerPerson);
+        System.out.printf("Total tip amount: $"+"%.2f\n", totalTipAmount);
+        System.out.printf("Total bill amount with tip: $" +"%.2f\n", totalBillAmountWithTip);
+        System.out.printf("Tip per person: $" +"%.2f\n",tipPerPerson);
+        System.out.printf("Total bill per person: $" + "%.2f\n",totalPerPerson);
         //info displayed about each calculation above to the user
 
         System.out.println();
